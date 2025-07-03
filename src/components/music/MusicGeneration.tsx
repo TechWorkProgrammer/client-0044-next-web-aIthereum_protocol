@@ -46,7 +46,7 @@ const MusicGeneration: React.FC = () => {
     useEffect(() => {
         if (!eventName) return;
 
-        const socket = io("wss://api.cypherai.app");
+        const socket = io("wss://api.althereum.techwork.store");
 
         socket.on(eventName, (data: { status: string; message?: string }) => {
             setTask(t => t ? {...t, state: data.status} : t);

@@ -11,7 +11,7 @@ import MeshDetails from "@/components/mesh/MeshDetails";
 import Missing from "@/components/Missing";
 import api from "@/utils/axios";
 
-const SOCKET_URL = "wss://api.cypherai.app/";
+const SOCKET_URL = "wss://api.althereum.techwork.store/";
 
 interface MeshResultProps {
     id?: string;

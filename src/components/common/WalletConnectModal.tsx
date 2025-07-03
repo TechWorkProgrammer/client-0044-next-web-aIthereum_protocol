@@ -28,7 +28,7 @@ const wallets = [
             "Connect using WalletConnect-compatible mobile wallets via QR code or deep linking.",
     },
     {
-        name: "CypherAI",
+        name: "Aithereum",
         icon: "/icon.png",
         description: "Use your address and password to connect securely.",
     },
@@ -47,7 +47,7 @@ const WalletConnectModal: React.FC<WalletConnectModalProps> = ({isOpen, onClose}
     if (!isOpen) return null;
 
     const handleConnect = async () => {
-        if (selectedWallet === "CypherAI") {
+        if (selectedWallet === "Aithereum") {
             if (!form.address || !form.password || (mode === "register" && form.password !== form.repeat_password)) {
                 alert("Validation Error", "Please fill all fields correctly.", "error");
                 return;
@@ -78,7 +78,7 @@ const WalletConnectModal: React.FC<WalletConnectModalProps> = ({isOpen, onClose}
                                                 key={w.name}
                                                 onClick={() => {
                                                     setSelectedWallet(w.name);
-                                                    if (w.name !== "CypherAI") setMode("login");
+                                                    if (w.name !== "Aithereum") setMode("login");
                                                 }}
                                                 className={`${
                                                     w.name === "MetaMask" ? "hidden md:flex" : "flex"
@@ -94,10 +94,10 @@ const WalletConnectModal: React.FC<WalletConnectModalProps> = ({isOpen, onClose}
                                 </div>
                             )}
                             <div className="flex-1 rounded-r-lg w-[24rem]">
-                                {selectedWallet === "CypherAI" ? (
+                                {selectedWallet === "Aithereum" ? (
                                     <div className="flex flex-col gap-4">
                                         <h3 className="text-xl font-bold text-accent-400 mb-2 border-b border-secondary-200 p-4">
-                                            {mode === "login" ? "CypherAI Login" : "CypherAI Register"}
+                                            {mode === "login" ? "Aithereum Login" : "Aithereum Register"}
                                         </h3>
                                         <div className="px-4 flex flex-col gap-4">
                                             <div className="relative w-full">

@@ -10,7 +10,7 @@ interface NotificationModalProps {
 const dummyNotifications: Notification[] = [
     {
         id: 1,
-        title: "Welcome to CypherAI!",
+        title: "Welcome to Aithereum!",
         description: "Thank you for joining the platform. Explore Text‐to‐3D and more.",
         timestamp: "2 hours ago",
         isRead: false,
@@ -21,12 +21,12 @@ const dummyNotifications: Notification[] = [
         description: "You can now generate music from text. Give it a try!",
         timestamp: "1 day ago",
         isRead: true,
-        actionLink: "https://cypherai.app/music",
+        actionLink: "http://aithereum.org/music",
     },
     {
         id: 3,
         title: "Weekly Newsletter",
-        description: "Here’s our latest update and tips for getting the most out of CypherAI.",
+        description: "Here’s our latest update and tips for getting the most out of Aithereum.",
         timestamp: "3 days ago",
         isRead: true,
     },

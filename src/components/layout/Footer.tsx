@@ -10,7 +10,7 @@ const quickLinks = [
     {label: "Product", path: "#product"},
     {label: "Studio", path: "#studio"},
     {label: "Pricing", path: "#pricing"},
-    {label: "Documentation", path: "https://docs.cypherai.app/"},
+    {label: "Documentation", path: "http://docs.aithereum.org/"},
 ];
 
 const Footer: React.FC = () => {
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                             <div className="relative w-8 h-8 md:w-10 md:h-10">
                                 <Image
                                     src="/icon.png"
-                                    alt="CypherAI Logo"
+                                    alt="Aithereum Logo"
                                     fill
                                     sizes="(max-width: 768px) 32px, (max-width: 1200px) 40px, 48px"
                                     style={{objectFit: "contain"}}
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                                 />
                             </div>
                             <span className="text-white font-semibold text-xl md:text-2xl">
-                                CypherAI
+                                Aithereum
                             </span>
                         </button>
                     </div>
@@ -59,14 +59,14 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="mt-2 border-t border-secondary-700 pt-4 md:pt-12 md:text-center flex flex-row justify-between">
                     <p className="text-md text-secondary-500">
-                        © 2025 CypherAI. All Rights Reserved.
+                        © 2025 Aithereum. All Rights Reserved.
                     </p>
                     <div className="flex space-x-4">
-                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://t.me/althereum_protocol_bot" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-400 hover:text-accent-500 transition">
                             <RiTelegram2Fill size={24}/>
                         </a>
-                        <a href="https://x.com/cypheraieth" target="_blank" rel="noopener noreferrer"
+                        <a href="https://x.com/aithereumerc" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-400 hover:text-accent-500 transition">
                             <FaXTwitter size={24}/>
                         </a>

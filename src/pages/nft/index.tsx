@@ -1,11 +1,11 @@
 import React from "react";
-import NFTGeneration from "@/components/nft/NFTGeneration";
 import SidebarLayout from "@/components/layout/SidebarLayout";
+import ComingSoon from "@/components/ComingSoon";
 
 const NFTPage: React.FC = () => {
     return (
         <SidebarLayout>
-            <NFTGeneration/>
+            <ComingSoon />
         </SidebarLayout>
     );
 };

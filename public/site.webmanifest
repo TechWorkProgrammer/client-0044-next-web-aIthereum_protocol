@@ -1,6 +1,6 @@
 {
-  "name": "CypherAI Application",
-  "short_name": "CypherAI",
+  "name": "Aithereum Application",
+  "short_name": "Aithereum",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -34,13 +34,13 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "#F9C664",
+  "theme_color": "#1E8EB8",
   "background_color": "#FFFFFF",
   "display": "standalone",
   "start_url": "/",
   "scope": "/",
   "orientation": "portrait-primary",
-  "description": "CypherAI helps bring your ideas to life. Use artificial intelligence to its fullest to help automate, innovate, and elevate your business to the next level.",
+  "description": "Aithereum helps bring your ideas to life. Use artificial intelligence to its fullest to help automate, innovate, and elevate your business to the next level.",
   "shortcuts": [
     {
       "name": "Home",

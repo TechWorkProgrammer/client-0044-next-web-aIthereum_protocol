@@ -1,17 +1,13 @@
 import React from "react";
-import ProgramGeneration from "@/components/program/ProgramGeneration";
 import SidebarLayout from "@/components/layout/SidebarLayout";
+import ComingSoon from "@/components/ComingSoon";
 
 const ProgramPage: React.FC = () => {
-    return (
-        <SidebarLayout>
-            <div className="flex">
-                <main className="flex-1 flex flex-col items-start justify-end">
-                    <ProgramGeneration/>
-                </main>
-            </div>
-        </SidebarLayout>
-    );
+  return (
+    <SidebarLayout>
+      <ComingSoon />
+    </SidebarLayout>
+  );
 };
 
 export default ProgramPage;

@@ -69,13 +69,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                     <div className="relative w-8 h-8">
                         <Image
                             src="/icon.png"
-                            alt="CypherAI Logo"
+                            alt="Aithereum Logo"
                             fill
                             style={{objectFit: "contain"}}
                             priority
                         />
                     </div>
-                    <p className="ml-2 text-white font-semibold text-xl mb-2">CypherAI</p>
+                    <p className="ml-2 text-white font-semibold text-xl mb-2">Aithereum</p>
                 </div>
                 <div className="flex-1 overflow-y-auto mt-2">
                     {allNavGroups.map((group, groupIdx) => (
@@ -133,7 +133,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                            className="text-secondary-900 hover:text-accent-500 transition bg-primary-800 rounded p-3">
                             <RiTelegram2Fill size={24}/>
                         </a>
-                        <a href="https://x.com/cypheraieth" target="_blank" rel="noopener noreferrer"
+                        <a href="https://x.com/aithereum" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-900 hover:text-accent-500 transition bg-primary-800 rounded p-3">
                             <FaXTwitter size={24}/>
                         </a>

@@ -1,11 +1,11 @@
 import React from "react";
-import GameGeneration from "@/components/game/GameGeneration";
 import SidebarLayout from "@/components/layout/SidebarLayout";
+import ComingSoon from "@/components/ComingSoon";
 
 const GamePage: React.FC = () => {
     return (
         <SidebarLayout>
-            <GameGeneration/>
+            <ComingSoon />
         </SidebarLayout>
     );
 };

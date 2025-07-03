@@ -1,13 +1,13 @@
 import React from "react";
-import MetaGeneration from "@/components/metaverse/MetaGeneration";
 import SidebarLayout from "@/components/layout/SidebarLayout";
+import ComingSoon from "@/components/ComingSoon";
 
 const MetaversePage: React.FC = () => {
-    return (
-        <SidebarLayout>
-            <MetaGeneration/>
-        </SidebarLayout>
-    );
+  return (
+    <SidebarLayout>
+      <ComingSoon />
+    </SidebarLayout>
+  );
 };
 
 export default MetaversePage;

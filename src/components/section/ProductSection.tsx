@@ -37,7 +37,7 @@ const ProductionSection = () => {
                     From Concept to Reality.
                 </h1>
                 <h1 className="text-2xl md:text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-accent-600 to-accent-400">
-                    CypherAI
+                    Aithereum
                 </h1>
                 <p className="mt-4 text-base md:text-lg lg:text-xl text-secondary-800">
                     Create 3D models, games, music, scripts, NFTs, and metaverse materials only using words that comes

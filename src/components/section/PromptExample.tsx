@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-const promptText = "Futuristic 3D female character with glowing cyan elements in a cyber world.";
-const imageSrc = "/assets/images/prompt-example.webp";
+const promptText = "Futuristic 3D male character with glowing cyan elements in a cyber world.";
+const imageSrc = "/assets/images/prompt-example.png";
 
 const PromptExample: React.FC = () => {
     return (
@@ -10,7 +10,7 @@ const PromptExample: React.FC = () => {
             <div className="relative w-full flex justify-center items-center">
                 <div className="absolute -left-2 md:-left-5 lg:-left-20 top-0 bottom-0 w-[100vw]">
                     <Image
-                        src="/assets/images/prompt-splash-left.webp"
+                        src="/assets/images/prompt-splash-left.png"
                         alt="Left Light Decoration"
                         fill
                         style={{objectFit: "contain", objectPosition: "left"}}
@@ -20,7 +20,7 @@ const PromptExample: React.FC = () => {
 
                 <div className="absolute -right-2 md:-right-5 lg:-right-20 top-0 bottom-0 w-[100vw]">
                     <Image
-                        src="/assets/images/prompt-splash-right.webp"
+                        src="/assets/images/prompt-splash-right.png"
                         alt="Right Decoration"
                         fill
                         style={{objectFit: "contain", objectPosition: "right"}}

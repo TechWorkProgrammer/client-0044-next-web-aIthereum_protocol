@@ -45,7 +45,7 @@ const StudioSection = () => {
                     viewport={{once: false}}
                     transition={{duration: 0.8, delay: 0.2}}
                 >
-                    CypherAl is reinventing how 3D assets are generated, shared, and owned. We provide a platform that
+                    Aithereum is reinventing how 3D assets are generated, shared, and owned. We provide a platform that
                     allows creators to express their creativity, exhibit their work, and make value by converting their
                     works into NFTs. This can be done with the help of boundless artificial intelligence and blockchain
                     technology.
@@ -74,7 +74,7 @@ const StudioSection = () => {
                     transition={{duration: 0.8}}
                 >
                     <Image
-                        src="/assets/images/studio.webp"
+                        src="/assets/images/studio.png"
                         alt="3D Creation"
                         fill
                         className="object-cover w-full h-full"

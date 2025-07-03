@@ -1,12 +1,12 @@
 import React from "react";
-import MusicGeneration from "@/components/music/MusicGeneration";
 import SidebarLayout from "@/components/layout/SidebarLayout";
+import ComingSoon from "@/components/ComingSoon";
 
 const MusicPage: React.FC = () => {
 
     return (
         <SidebarLayout>
-            <MusicGeneration/>
+            <ComingSoon />
         </SidebarLayout>
     );
 };
