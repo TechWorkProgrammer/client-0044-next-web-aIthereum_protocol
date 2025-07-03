@@ -5,11 +5,11 @@ const nextConfig: NextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "cypherai.app",
+                hostname: "aithereum.org",
             },
             {
                 protocol: "https",
-                hostname: "api.cypherai.app",
+                hostname: "api.althereum.techwork.store",
             },
             {
                 protocol: "http",
