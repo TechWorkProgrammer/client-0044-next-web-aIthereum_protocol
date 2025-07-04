@@ -24,7 +24,7 @@ const TelegramBanner: React.FC = () => {
                 <div className="w-full sm:w-auto">
                     <Button
                         label="Generate on Telegram"
-                        onClick={() => window.open("https://t.me/althereum_protocol_bot", "_blank")}
+                        onClick={() => window.open("https://t.me/aithereumprotocol_bot", "_blank")}
                         icon={<FaTelegramPlane/>}
                         iconPosition="left"
                         color="primary"
