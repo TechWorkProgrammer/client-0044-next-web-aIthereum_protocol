@@ -41,7 +41,7 @@ const ProductionSection = () => {
                 </h1>
                 <p className="mt-4 text-base md:text-lg lg:text-xl text-secondary-800">
                     Create 3D models, games, music, scripts, NFTs, and metaverse materials only using words that comes
-                    through your mind. CypherAI are intended to inspire your creativity and help you produce and invent
+                    through your mind. Aithereum are intended to inspire your creativity and help you produce and invent
                     with ease
                 </p>
                 <div className="flex flex-row gap-4 w-full justify-center items-center mt-6">

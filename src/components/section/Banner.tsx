@@ -40,7 +40,7 @@ const Banner: React.FC = () => {
           >
             <Image
               src="/assets/images/aithereum-splash.png"
-              alt="Cypher Splash"
+              alt="Aithereum Splash"
               width={4572}
               height={1500}
               priority

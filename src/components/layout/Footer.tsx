@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                         © 2025 Aithereum. All Rights Reserved.
                     </p>
                     <div className="flex space-x-4">
-                        <a href="https://t.me/althereum_protocol_bot" target="_blank" rel="noopener noreferrer"
+                        <a href="https://t.me/AIthereumprotocol" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-400 hover:text-accent-500 transition">
                             <RiTelegram2Fill size={24}/>
                         </a>

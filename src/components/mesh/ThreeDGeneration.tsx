@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaRegPaperPlane, FaFire } from "react-icons/fa";
+import { FaRegPaperPlane } from "react-icons/fa";
 import { useAlert } from "@/context/Alert";
 import { getAccessToken } from "@/utils/user";
 import api from "@/utils/axios";
@@ -29,7 +29,7 @@ const ThreeDGeneration: React.FC = () => {
   });
   const [task, setTask] = useState<TaskResponse | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [version, setVersion] = useState<"v3">("v3");
+  const [version] = useState<"v3">("v3");
 
   const alert = useAlert();
   const router = useRouter();
@@ -106,15 +106,6 @@ const ThreeDGeneration: React.FC = () => {
                 3D Generation
               </h2>
               <div className="flex-1 overflow-y-auto p-4 space-y-4">
-                <div className="flex items-center gap-4 mb-4">
-                  <Button
-                    onClick={() => setVersion("v3")}
-                    label="V3"
-                    icon={<FaFire />}
-                    color={version === "v3" ? "primary" : "secondary"}
-                    fullWidth
-                  />{" "}
-                </div>
                 <div>
                   <label
                     htmlFor="prompt"

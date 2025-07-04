@@ -22,7 +22,7 @@ export default function Document() {
 
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://aithereum.org/"/>
-                <meta property="og:title" content="Aithereum - Unlock Your Full Potential With CypherAI"/>
+                <meta property="og:title" content="Aithereum - Unlock Your Full Potential With Aithereum"/>
                 <meta property="og:description"
                       content="Aithereum helps bring your ideas to life. Use artificial intelligence to its fullest to help automate, innovate, and elevate your business to the next level."/>
                 <meta property="og:image" content="/icon.png"/>

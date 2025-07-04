@@ -8,7 +8,7 @@ export interface UserData {
     walletType: string;
 }
 
-const USER_KEY = "CypherAI_AUTH";
+const USER_KEY = "Aithereum_AUTH";
 
 const isBrowser = (): boolean => typeof window !== "undefined";
 

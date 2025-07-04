@@ -29,11 +29,11 @@ const MeshCard: React.FC<MeshCardProps> = ({mesh}) => {
         });
     };
 
-    const getVersionTag = (aiVersion: string) => {
-        if (aiVersion.toLowerCase() === "meshy") return "v1";
-        if (aiVersion.toLowerCase() === "master") return "v2";
-        return "";
-    };
+    // const getVersionTag = (aiVersion: string) => {
+    //     if (aiVersion.toLowerCase() === "meshy") return "v1";
+    //     if (aiVersion.toLowerCase() === "master") return "v2";
+    //     return "";
+    // };
 
     const isRefining = () => {
         const now = new Date();
@@ -89,13 +89,6 @@ const MeshCard: React.FC<MeshCardProps> = ({mesh}) => {
                     <div
                         className="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-bold px-2 py-1 rounded shadow-md">
                         Refining...
-                    </div>
-                )}
-
-                {getVersionTag(mesh.aiVersion) && (
-                    <div
-                        className="absolute bottom-2 left-2 bg-accent-400 text-white text-xs font-bold px-2 py-1 rounded shadow-md">
-                        {getVersionTag(mesh.aiVersion)}
                     </div>
                 )}
             </div>

@@ -58,7 +58,7 @@ export const WalletProvider: React.FC<{ children: ReactNode }> = ({children}) =>
         setIsConnecting(true);
         loader(true, {size: "large"});
         try {
-            if (walletName === "CypherAI") {
+            if (walletName === "Aithereum") {
                 const url = isRegister ? "/register" : "/login";
                 const payload = isRegister
                     ? {username: address, password, repeat_password: password}
@@ -72,9 +72,9 @@ export const WalletProvider: React.FC<{ children: ReactNode }> = ({children}) =>
                     point: user.point,
                     accessToken,
                     refreshToken,
-                    walletType: "CypherAI",
+                    walletType: "Aithereum",
                 });
-                setConnectedWallet("CypherAI");
+                setConnectedWallet("Aithereum");
                 setWalletAddress(user.address);
                 alert("Authorized", `${isRegister ? "Registered" : "Logged in"} as ${user.username}`, "success");
             } else {

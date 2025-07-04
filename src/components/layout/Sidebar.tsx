@@ -129,11 +129,11 @@ const Sidebar: React.FC<SidebarProps> = ({
                 </div>
                 <div className="border-t border-secondary-500">
                     <div className="flex space-x-4 w-full justify-between px-4 md:px-6 py-6">
-                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://t.me/AIthereumprotocol" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-900 hover:text-accent-500 transition bg-primary-800 rounded p-3">
                             <RiTelegram2Fill size={24}/>
                         </a>
-                        <a href="https://x.com/aithereum" target="_blank" rel="noopener noreferrer"
+                        <a href="https://x.com/aithereumerc" target="_blank" rel="noopener noreferrer"
                            className="text-secondary-900 hover:text-accent-500 transition bg-primary-800 rounded p-3">
                             <FaXTwitter size={24}/>
                         </a>
