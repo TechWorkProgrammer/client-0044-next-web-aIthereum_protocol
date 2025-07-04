@@ -21,7 +21,7 @@ const dummyNotifications: Notification[] = [
         description: "You can now generate music from text. Give it a try!",
         timestamp: "1 day ago",
         isRead: true,
-        actionLink: "http://aithereum.org/music",
+        actionLink: "https://aithereum.org/music",
     },
     {
         id: 3,

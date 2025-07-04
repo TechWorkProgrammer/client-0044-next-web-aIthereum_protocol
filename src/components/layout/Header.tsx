@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     { label: "Product", path: "#product" },
     { label: "Studio", path: "#studio" },
     { label: "Pricing", path: "#pricing" },
-    { label: "Documentation", path: "http://aithereum.org/" },
+    { label: "Documentation", path: "https://aithereum.org/" },
   ];
 
   const handleNavigation = (path: string) => {
