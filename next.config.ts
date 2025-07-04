@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
             },
             {
                 protocol: "https",
-                hostname: "api.althereum.techwork.store",
+                hostname: "api.aithereum.org",
             },
             {
                 protocol: "http",

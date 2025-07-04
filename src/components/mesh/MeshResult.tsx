@@ -11,7 +11,7 @@ import MeshDetails from "@/components/mesh/MeshDetails";
 import Missing from "@/components/Missing";
 import api from "@/utils/axios";
 
-const SOCKET_URL = "wss://api.althereum.techwork.store/";
+const SOCKET_URL = "wss://api.aithereum.org/";
 
 interface MeshResultProps {
     id?: string;
@@ -128,7 +128,6 @@ const MeshResult: React.FC<MeshResultProps> = ({id, embedded = false}) => {
     ].filter((link) => link.previewUrl || link.refineUrl);
 
     const createdAt = new Date(mesh.createdAt);
-    const version = mesh.aiVersion === "master" ? "V2" : "V1";
 
     return (
         <div className="w-full flex flex-col items-center relative pt-2 md:pt-0">
@@ -138,7 +137,7 @@ const MeshResult: React.FC<MeshResultProps> = ({id, embedded = false}) => {
                 } max-h-[70vh]`}
             >
                 <div className="absolute bottom-5 right-5 text-center mb-4 font-semibold">
-                    <p className="text-lg font-bold bg-accent-400 rounded text-black px-2">{version}</p>
+                    {/* <p className="text-lg font-bold bg-accent-400 rounded text-black px-2">{version}</p> */}
                     {isRefining && (
                         <p className="bg-accent-400 text-black text-xs font-bold px-2 py-1 rounded inline-block mt-1">
                             Refining...
