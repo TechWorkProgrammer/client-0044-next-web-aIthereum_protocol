@@ -10,7 +10,7 @@ const quickLinks = [
     {label: "Product", path: "#product"},
     {label: "Studio", path: "#studio"},
     {label: "Pricing", path: "#pricing"},
-    {label: "Documentation", path: "https://aithereum-protocol.gitbook.io/docs/"},
+    {label: "Documentation", path: "https://cdnc.heyzine.com/files/uploaded/v2/2db09f371c13bcf9801b5d3209d9855326c01726.pdf"},
 ];
 
 const Footer: React.FC = () => {
