@@ -22,7 +22,7 @@ const AssetsNavigation: React.FC<AssetsNavigationProps> = ({activeCategory}) => 
                     3D Models
                 </button>
 
-                {/* <button
+                <button
                     onClick={() => router.push("/assets/music")}
                     className={`flex items-center gap-2 px-6 py-3 font-semibold transition text-lg text-white ${
                         activeCategory === "music"
@@ -33,7 +33,7 @@ const AssetsNavigation: React.FC<AssetsNavigationProps> = ({activeCategory}) => 
                     Music
                 </button>
 
-                <button
+                {/*<button
                     onClick={() => router.push("/assets/code")}
                     className={`flex items-center gap-2 px-6 py-3 font-semibold transition text-lg text-white ${
                         activeCategory === "code"
